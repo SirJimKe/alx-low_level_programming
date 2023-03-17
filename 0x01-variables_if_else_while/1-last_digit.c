@@ -29,7 +29,7 @@ int main(void)
 		printf("%d and is greater than 5\n", x);
 	if (x == 0)
 		printf("%d and is 0\n", x);
-	if (x < 6 && !0)
+	if (x < 6 && x != 0)
 		printf("%d and is less than 6 and not 0\n", x);
 	return (0);
 }
