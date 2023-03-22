@@ -14,11 +14,9 @@ int main(void)
 
 	for (i = 2; i < 50; i++)
 	{
-		if (arr[i] < 4000000)
-		{
-			arr[i] = arr[i - 1] + arr[i - 2];
+		arr[i] = arr[i - 1] + arr[i - 2];
+		if (arr[i] < 4000000 && arr[i] % 2 == 0)
 			sum += arr[i];
-		}
 	}
 
 	printf("%ld\n", sum);
