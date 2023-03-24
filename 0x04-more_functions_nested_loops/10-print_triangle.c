@@ -1,25 +1,21 @@
+#include "main.h"
+
+/**
+ * print_triangle - prints a triangle
+ * @size: parameter
+ * Return: a triangle
+ */
 void print_triangle(int size)
 {
-	int i = 1, ii;
+	int i, j, k;
 
-	while (i <= size && size > 0)
+	for (i = 0; i < size; i++)
 	{
-		ii = 0;
-		while (ii < size - i)
-		{
+		for (j = size - i; j > 1; j--)
 			_putchar(' ');
-			ii++;
-		}
-		ii = 0;
-		while (ii < i)
-		{
-			_putchar('#');
-			ii++;
-		}
 
+		for (k = 0; k <= i; k++)
+			_putchar('#');
 		_putchar('\n');
-		i++;
 	}
-	if (i == 1)
-		_putchar('\n');
 }
