@@ -6,3 +6,4 @@
 * File: **5-strstr.c** locates a substring
 * File: **7-print_chessboard** prints the chessboard
 * File: **100-set_string.c** sets the value of a pointer to a char
+* File: **101-crackme_password** contains the password for the crackme2 executable.
