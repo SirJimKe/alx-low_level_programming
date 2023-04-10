@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
+
 /**
  * main - prints change
  * @argc: argument count
@@ -13,11 +15,15 @@ int main(int argc, char *argv[])
 	if (argc != 2)
 	{
 		printf("Error\n");
-		return (0);
+		return (1);
 	}
+
 	cents = atoi(argv[1]);
 	if (cents <= 0)
+	{
 		printf("0\n");
+		return (0);
+	}
 
 	coins += cents / 25;
 	cents = cents % 25;
