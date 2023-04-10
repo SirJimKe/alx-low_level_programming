@@ -3,3 +3,5 @@
 * File: 2-args.c prints all arguments it receives
 * File: 3-mul.c multiplies two numbers
 * File: 4-add.c adds positive numbers
+* File: 100-change.c prints the minimum number of coins to make change for an amount of money.
+
