@@ -2,9 +2,9 @@
 #include <stdarg.h>
 
 /**
- * print_strings - prints strings and a separator
+ * print_strings - prints strings with a separator
  * @separator: separates strings
- * @n: number of strings args
+ * @n: number of strings arguments
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
