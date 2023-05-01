@@ -5,3 +5,4 @@
 * File: 4-free_listint.c frees a listint_t list.
 * File: 5-free_listint2.c frees a listint_t list and set head to NULL.
 * File: 6-pop_listint.c deletes the head node of a listint_t linked list, and returns the head node’s data (n).
+* File: 7-get_nodeint.c returns the nth node of a listint_t linked list.
