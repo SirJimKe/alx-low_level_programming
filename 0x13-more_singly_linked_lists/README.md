@@ -3,3 +3,4 @@
 * File: 2-add_nodeint.c adds a new node at the beginning of a listint_t list.
 * File: 3-add_nodeint_end.c adds a new node at the end of a listint_t list.
 * File: 4-free_listint.c frees a listint_t list.
+* File: 5-free_listint2.c frees a listint_t list and set head to NULL.
