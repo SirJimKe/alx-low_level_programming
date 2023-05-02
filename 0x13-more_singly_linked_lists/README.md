@@ -9,3 +9,4 @@
 * File: 8-sum_listint.c  returns the sum of all the data (n) of a listint_t linked list.
 * File: 9-insert_nodeint.c inserts a new node at a given position.
 * File: 10-delete_nodeint.c deletes the node at index index of a listint_t linked list
+* File: 100-reverse_listint.c is a function that reverses a listint_t linked list
